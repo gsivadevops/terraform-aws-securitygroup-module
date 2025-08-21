@@ -38,7 +38,6 @@ module "security_group" {
   ]
 }
 
-
 **Inputs:**
 
 vpc_id → VPC ID where SG will be created
