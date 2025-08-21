@@ -1,7 +1,7 @@
-Description:
+**Description:**
 A reusable Terraform module to create and manage AWS Security Groups with customizable ingress and egress rules.
 
-Key Features:
+**Key Features:**
 
 Create Security Groups inside a given VPC
 
@@ -11,7 +11,7 @@ Allows CIDR blocks, SG IDs, and self-referencing rules
 
 Fully supports tagging
 
-Example Usage:
+**Example Usage:**
 A developer using your module would write:
 
 module "security_group" {
@@ -39,7 +39,7 @@ module "security_group" {
 }
 
 
-Inputs:
+**Inputs:**
 
 vpc_id → VPC ID where SG will be created
 
@@ -47,6 +47,6 @@ ingress_rules → List of ingress rules
 
 egress_rules → List of egress rules
 
-Outputs:
+**Outputs:**
 
 security_group_id → ID of the created Security Group
